@@ -298,12 +298,6 @@ input.image[type="checkbox"]:checked + label:before {
     margin: .5em;
 }
 
-.sign-up-button {
-    display: table;
-    position: relative;
-    top: 100%;
-}
-
 .login-bar {
     padding-top:1em;
     padding-bottom:1em;
@@ -376,7 +370,6 @@ span.tags a:hover {
 /* button stylings */
 
 .button {
-    display:block;
     display: inline-block;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -488,14 +481,14 @@ span.tags a:hover {
 
 .blue-gradient {
     background-color: #007099;
-    background: #007099; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
-background: linear-gradient(135deg,  #1e5799 0%,#7db9e8 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #007099;
+    background: -moz-linear-gradient(-45deg,  #1e5799 0%, #7db9e8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #1e5799 0%,#7db9e8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
