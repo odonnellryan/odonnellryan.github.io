@@ -472,6 +472,7 @@ span.tags a:hover {
 }
 
 .right {
+    margin-left:auto;
     text-align: right;
 }
 .left {
