@@ -460,7 +460,7 @@ span.tags a:hover {
 }
 
 .center {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
