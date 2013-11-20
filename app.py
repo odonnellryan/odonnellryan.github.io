@@ -11,6 +11,7 @@ app.register_blueprint(views.mod)
 app.testing = True
 #TODO: turn debugging off
 app.debug = True
+app.config['FREEZER_DESTINATION'] = 'live'
 
 HOMEPAGE_TITLE = "Test Page Title: "
 COMPANY_NAME = "Luma Hosting"
