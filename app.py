@@ -1,7 +1,8 @@
 import sys
 import os
 import views
-from flask import Flask, render_template, redirect, url_for
+from forms import user_forms
+from flask import Flask, render_template, redirect, url_for, request
 from flask_frozen import Freezer
 sys.path.append(os.getcwd())
 
@@ -18,11 +19,12 @@ COMPANY_NAME = "Luma Hosting"
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    register = user_forms.register(request.form)
     content = "Default Page Content"
-    return render_template('index.html', content=content, title=HOMEPAGE_TITLE, company_name=COMPANY_NAME)
+    return render_template('index.html', content=content, title=HOMEPAGE_TITLE, company_name=COMPANY_NAME, form=register)
 
 freezer = Freezer(app)
-freezer.freeze()
+#freezer.freeze()
 
 if __name__ == '__main__':
     app.run(port=8000)
