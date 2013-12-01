@@ -9,7 +9,7 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
 }
 table {
     font-size:14px;
-
+    margin-top:1.5em !important;
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -24,9 +24,7 @@ th {
 }
 /* below are text-styles  */
 
-.cp-text {
-    font-size:18px;
-}
+
 
 small {
     font-size:.75em;
