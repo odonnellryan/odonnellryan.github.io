@@ -23,6 +23,12 @@ def index():
     content = "Default Page Content"
     return render_template('index.html', content=content, title=HOMEPAGE_TITLE, company_name=COMPANY_NAME, form=register)
 
+@app.route('/cp/', methods=['GET', 'POST'])
+def cp():
+    register = user_forms.register(request.form)
+    content = "Default Page Content"
+    return render_template('cp.html', content=content, title=HOMEPAGE_TITLE, company_name=COMPANY_NAME, form=register)
+
 freezer = Freezer(app)
 #freezer.freeze()
 

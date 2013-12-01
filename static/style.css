@@ -7,7 +7,10 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
     vertical-align: baseline;
     background: transparent;
 }
+table {
+    font-size:14px;
 
+}
 body {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
@@ -15,8 +18,15 @@ body {
     text-decoration: none;
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
 }
-
+th {
+    color:#797979;
+    background-color: #f1f1f1;
+}
 /* below are text-styles  */
+
+.cp-text {
+    font-size:18px;
+}
 
 small {
     font-size:.75em;
@@ -178,6 +188,21 @@ hr {
 }
 
 /* circles! */
+
+.circle-online {
+    display: inline-block;
+    background-color: #16eb00;
+    width:14px;
+    height:14px;
+    border-radius: 7px;
+}
+.circle-offline {
+    display: inline-block;
+    background-color: #f42a00;
+    width:14px;
+    height:14px;
+    border-radius: 7px;
+}
 .circle-200 {
     line-height:200px;
     text-align:center;

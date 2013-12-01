@@ -1,0 +1,188 @@
+{% extends "main.html" %}
+{% block body %}
+<div class="pure-g-r center">
+    <div class="pure-u-1 main padding-3">
+        <h3 class="left">Containers</h3>
+        <table class="pure-table pure-u-1 pure-table-horizontal">
+            <thead>
+            <tr>
+                <th>URL</th>
+                <th>Hostname</th>
+                <th>Tagged</th>
+                <th>Base Image</th>
+                <th>Created</th>
+                <th>Started With</th>
+                <th>State</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="#">lumahosting.com</a></td>
+                <td>LumaMain</td>
+                <td>Main Dev Env</td>
+                <td>LumaBase</td>
+                <td>10-15-2013</td>
+                <td>/.start_script</td>
+                <td><div class="circle-online"></div> Started</td>
+            </tr>
+            <tr>
+                <td><a href="#">lb.lumahosting.com</a></td>
+                <td>LoadBalance</td>
+                <td>Testing LB Configurations</td>
+                <td>LumaBase</td>
+                <td>10-25-2013</td>
+                <td>/.ssh</td>
+                <td><div class="circle-online"></div> Started</td>
+            </tr>
+            <tr>
+                <td><a href="#">base.lumahosting.com</a></td>
+                <td>LumaBase</td>
+                <td>Luma Base Image Development</td>
+                <td>Ubuntu</td>
+                <td>09-20-2013</td>
+                <td></td>
+                <td><div class="circle-offline"></div> Stopped</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="pure-g-r main center">
+    <div class="pure-u-1">
+        <h3>Container: lumahosting.com</h3>
+    </div>
+    <div class="pure-u-1-2">
+        <table class="pure-table pure-table-horizontal center">
+            <tr>
+                <th>URL</th>
+                <td>lumahosting.com</td>
+            </tr>
+            <tr>
+                <th>Hostname</th>
+                <td>LumaMain</td>
+            </tr>
+            <tr>
+                <th>Tagged</th>
+                <td>Main Dev Env</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td>LumaBase</td>
+            </tr>
+            <tr>
+                <th>Created</th>
+                <td>10-15-2013</td>
+            </tr>
+            <tr>
+                <th>Started With</th>
+                <td>/.start_script</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><div class="circle-online"></div> Started</td>
+            </tr>
+            <tr>
+                <th>Memory</th>
+                <td>512MB</td>
+            </tr>
+            <tr>
+                <th>Disk</th>
+                <td>5GB</td>
+            <tr>
+                <th>Ports</th>
+                <td>8747:8080, 8748:22</td>
+            </tr>
+        </table>
+        </div>
+        <div class="pure-u-1-2">
+            <table class="pure-table pure-u-1 padding-2 pure-table-horizontal center">
+                <tr>
+                    <td><a href="#">Start Duplicate</a></td>
+                    <td><a href="#">Save to Disk</a></td>
+                    <td><a href="#">Snapshots</a></td>
+                    <td><a href="#">Copy Files</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Start / Stop</a></td>
+                    <td><a href="#">Delete Actions</a></td>
+                    <td><a href="#">Logs</a></td>
+                    <td><a href="#">Alerts</a></td>
+                </tr>
+            </table>
+            <p></p>
+            <table class="pure-table pure-u-1 padding-2 pure-table-horizontal center">
+                <tr>
+                    <th>User</th>
+                    <th>Command</th>
+                    <th>PID</th>
+                    <th>CPU</th>
+                    <th>Memory</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>root</td>
+                    <td>bash</td>
+                    <td>20938</td>
+                    <td>0.1</td>
+                    <td>0.1</td>
+                    <td>11:15</td>
+                </tr>
+                <tr>
+                    <td>root</td>
+                    <td>sleep</td>
+                    <td>20948</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>11:20</td>
+                </tr>
+            </table>
+            <p></p>
+            <table class="pure-table pure-u-1 padding-2 pure-table-horizontal center">
+                <tr>
+                    <th>Alert</th>
+                    <th>Action</th>
+                    <th>Active</th>
+                    <th>Last Sent</th>
+                </tr>
+                <tr>
+                    <td>Crate Down</td>
+                    <td><a href="#">Email</a></td>
+                    <td><div class="circle-online"></div> Yes</td>
+                    <td>12:28 PM 11-30-13</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<div class="pure-g-r">
+    <div class="pure-u-1 main center padding-3">
+        <h3 class="left">Images</h3>
+        <table class="pure-table pure-u-1 pure-table-horizontal">
+            <thead>
+            <tr>
+                <th>Hostname</th>
+                <th>Tagged</th>
+                <th>Base Container</th>
+                <th>Created</th>
+                <th>Run CMD</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><a href="#">LumaBase</a></td>
+                <td>Luma Base Image</td>
+                <td>LumaBase</td>
+                <td>10-15-2013</td>
+                <td>/.start_script</td>
+            </tr>
+            <tr>
+                <td><a href="#">ubuntu</a></td>
+                <td>Base</td>
+                <td>base</td>
+                <td>08-01-2013</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
