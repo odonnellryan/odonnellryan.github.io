@@ -41,10 +41,10 @@
     <div class="pure-u-1 center">
             <div class="pure-g-r main pure-hidden-phone pure-hidden-tablet">
                 <div class="pure-u-1 padding-3">
-                    <h1 class="light-gray-text">Using Containers</h1>
+                    <h1 class="light-gray-text">Using Linux Containers</h1>
                     <p>
                         Linux containers offer many advantages over more traditional development and hosting stacks.
-                         Our infrastructure was designed from the beginning to take advantage of these added benefits.
+                         Our infrastructure is designed to take advantage of these added benefits.
                     </p>
                 </div>
                 <div class="pure-u-1-3">
@@ -130,7 +130,20 @@
         <p>Luma Hosting uses linux containers coupled with our own infrastructure to supply you with advanced
         control panel features and monitoring.
         </p>
-        <img url="">
+        <p></p>
+        <p>Easy to use interface to view all your containers.</p>
+        <img src="{{ url_for('static', filename='images/cp-containers.png') }}" class="padding-2">
+        <p>Inspect a container to view advanced details and actions. Set backups, duplicate containers, view logs,
+        and more.</p>
+        <img src="{{ url_for('static', filename='images/cp-inspect.png') }}" class="padding-2">
+        <p>Advanced alerts set with custom or pre-defined criteria to alert you by Email, SMS, and phone.</p>
+        <img src="{{ url_for('static', filename='images/cp-alerts.png') }}" class="padding-2">
+        <p>View and monitor your running processes by accessing our API and Web Console. See how your application
+        is performing in realtime.</p>
+        <img src="{{ url_for('static', filename='images/cp-processes.png') }}" class="padding-2">
+        <p></p>
+        <p>We've worked hard to bring you the very best in control over your infrastructure. Allow us to make your stack
+        easy and put you back in charge over your technology.</p>
     </div>
 </div>
 {% endblock %}

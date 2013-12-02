@@ -30,7 +30,7 @@ def cp():
     return render_template('cp.html', content=content, title=HOMEPAGE_TITLE, company_name=COMPANY_NAME, form=register)
 
 freezer = Freezer(app)
-#freezer.freeze()
+freezer.freeze()
 
 if __name__ == '__main__':
     app.run(port=8000)
