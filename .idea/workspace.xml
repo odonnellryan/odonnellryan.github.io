@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9605aa-da70-4998-a64b-5d069077ac71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/index.html" afterPath="$PROJECT_DIR$/live/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/cp/index.html" afterPath="$PROJECT_DIR$/live/cp/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/odonnellryan.github.io.iml" afterPath="$PROJECT_DIR$/.idea/odonnellryan.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/live/static/style.css" afterPath="$PROJECT_DIR$/live/static/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/style.css" afterPath="$PROJECT_DIR$/static/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="odonnellryan.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/odonnellryan.github.io$app.coverage" NAME="app Coverage Results" MODIFIED="1385950116513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/odonnellryan.github.io$app.coverage" NAME="app Coverage Results" MODIFIED="1386299433587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,11 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="612">
-              <folding />
+            <state line="8" column="21" selection-start="216" selection-end="216" vertical-scroll-proportion="-0.4347826" vertical-offset="324" max-vertical-offset="738">
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +50,7 @@
       <file leaf-file-name="cp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/cp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="35" selection-start="4642" selection-end="4642" vertical-scroll-proportion="-46.666668" vertical-offset="0" max-vertical-offset="3247">
+            <state line="140" column="35" selection-start="4642" selection-end="4642" vertical-scroll-proportion="-0.0" vertical-offset="2520" max-vertical-offset="3438">
               <folding />
             </state>
           </provider>
@@ -54,16 +59,16 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="874" selection-end="874" vertical-scroll-proportion="5.76" vertical-offset="637" max-vertical-offset="10166">
+            <state line="54" column="11" selection-start="1414" selection-end="1414" vertical-scroll-proportion="-5.9259257" vertical-offset="812" max-vertical-offset="10746">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="744" selection-end="744" vertical-scroll-proportion="0.54986525" vertical-offset="0" max-vertical-offset="1394">
+            <state line="34" column="10" selection-start="1782" selection-end="1782" vertical-scroll-proportion="-2.0" vertical-offset="558" max-vertical-offset="1008">
               <folding />
             </state>
           </provider>
@@ -72,7 +77,7 @@
       <file leaf-file-name="user_forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/user_forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+            <state line="4" column="35" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -81,7 +86,7 @@
       <file leaf-file-name="macro.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/macro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="289">
+            <state line="10" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -90,8 +95,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="6" selection-start="6978" selection-end="6978" vertical-scroll-proportion="-10.653846" vertical-offset="2222" max-vertical-offset="2618">
+            <state line="2" column="0" selection-start="43" selection-end="1019" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="3564">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/live/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="7" selection-start="539" selection-end="539" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="10746">
+              <folding>
+                <marker date="1386299413713" expanded="true" signature="1350:1453" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,18 +135,19 @@
         <option value="$PROJECT_DIR$/templates/macro.html" />
         <option value="$PROJECT_DIR$/forms/user_forms.py" />
         <option value="$PROJECT_DIR$/templates/cp.html" />
-        <option value="$PROJECT_DIR$/static/style.css" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/live/static/style.css" />
+        <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/templates/main.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,6 +264,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="live" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odonnellryan.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="odonnellryan.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -256,10 +291,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/go/src/Goracle" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -278,9 +323,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python2.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="odonnellryan.github.io" />
@@ -460,7 +505,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -468,11 +513,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.7454243" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19215988" sideWeight="0.74600637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2545757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2539936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,6 +540,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="6" selection-start="6978" selection-end="6978" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="2772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/forms/user_forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="35" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
@@ -536,21 +588,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="376" />
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/wtforms/fields/simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="26" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1003" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/macro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="19" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="289">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/wtforms/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="0" selection-start="8262" selection-end="8262" vertical-scroll-proportion="0.42287233" vertical-offset="3683" max-vertical-offset="5151" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forms/user_forms.py">
@@ -560,38 +602,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
+    <entry file="file://$PROJECT_DIR$/live/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="874" selection-end="874" vertical-scroll-proportion="5.76" vertical-offset="637" max-vertical-offset="10166">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="6" selection-start="6978" selection-end="6978" vertical-scroll-proportion="-10.653846" vertical-offset="2222" max-vertical-offset="2618">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="612">
-          <folding />
+        <state line="9" column="7" selection-start="539" selection-end="539" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="10764">
+          <folding>
+            <marker date="1386299413713" expanded="true" signature="1350:1453" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/cp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="35" selection-start="4642" selection-end="4642" vertical-scroll-proportion="-46.666668" vertical-offset="0" max-vertical-offset="3247">
+        <state line="140" column="35" selection-start="4642" selection-end="4642" vertical-scroll-proportion="0.0" vertical-offset="2520" max-vertical-offset="3438">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="11" selection-start="1414" selection-end="1414" vertical-scroll-proportion="-5.9259257" vertical-offset="812" max-vertical-offset="10746">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="744" selection-end="744" vertical-scroll-proportion="0.54986525" vertical-offset="0" max-vertical-offset="1394">
+        <state line="34" column="10" selection-start="1782" selection-end="1782" vertical-scroll-proportion="-2.0" vertical-offset="558" max-vertical-offset="1008">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="43" selection-end="1019" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="3564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="216" selection-end="216" vertical-scroll-proportion="-0.4347826" vertical-offset="324" max-vertical-offset="738">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
