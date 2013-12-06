@@ -2,7 +2,7 @@ import sys
 import os
 import views
 from forms import user_forms
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, request
 from flask_frozen import Freezer
 sys.path.append(os.getcwd())
 
