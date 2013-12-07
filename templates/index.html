@@ -1,32 +1,41 @@
 {% extends "main.html" %}
 {% block body %}
+<div class="pure-g-r center main login-bar">
+    <div class="pure-u-1-3 center pure-hidden-phone pure-hidden-tablet">
+        <a class="top-nav" href="#">Coming Soon</a>
+    </div>
+    <div class="pure-u-1-3 logo center">
+        <img src="/static/images/logo.png">
+    </div>
+    <div class="pure-u-1-3 center pure-hidden-phone pure-hidden-tablet">
+        <a class="top-nav" href="#">About Luma</a>
+    </div>
+</div>
 <div class="pure-g-r center blue blue-gradient header">
-    <div class="pure-u-1 main center padding-3">
+    <div class="pure-u-1 main center padding-2">
         <h1 class="light-gray-text">Luma Hosting</h1>
         <p>
             <strong>Affordable Virtual Hosting Solutions</strong>
         <p>
         <p>
-            Packages designed for businesses, developers, individuals, and experimenters: All starting at $0 a month.
+            Packages designed for businesses, developers, individuals, and experimenters:
+        <strong>All starting at $0 a month.</strong>
         </p>
         <p>
             <small>Free accounts will be rolling out soon.
             Sign up with your email below to be alerted as soon as your account is activated.</small>
         </p>
-        <form class="pure-form center">
+    </div>
+    <div class="pure-u-1 padding-2">
+        <form action="{{ url_for('email') }}" method="post" class="pure-form">
             <fieldset>
-                {% from "macro.html" import render_field %}
-                {{ render_field(form.Email) }}
-                {{ render_field(form.Password) }}
-
+                <input type="email" placeholder="Email" class="center">
+                <button type="submit" class="button b-orange">Sign Up</button>
             </fieldset>
-                <button type="submit" class="button b-orange">
-                    Let's Get Started
-                </button>
         </form>
     </div>
 </div>
-<div class="pure-g-r center padding-3 main">
+<div class="pure-g-r center padding-4 main">
     <div class="pure-u-1">
         <h2>We Use Crates</h2>
     </div>
@@ -48,7 +57,7 @@
         </p>
     </div>
     <div class="pure-u-1 padding-1">
-
+    <!-- empty div for padding-->
     </div>
     <div class="pure-u-1 padding-2">
         <h2>How we work</h2>
@@ -56,7 +65,7 @@
             <strong>Our three principle process</strong> guides your application development and deployment.
         </p>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3 center">
         <div class="circle-200 light-blue center">
             <h3 class="light-gray-text">Planning</h3>
         </div>
@@ -81,10 +90,10 @@
         </p>
     </div>
 </div>
-<div class="pure-g-r dark-blue header margin-3">
+<div class="pure-g-r dark-blue header margin-3 center">
     <div class="pure-u-1 center">
-        <div class="pure-g-r main pure-hidden-phone pure-hidden-tablet">
-            <div class="pure-u-1 padding-3">
+        <div class="pure-g-r center main pure-hidden-phone pure-hidden-tablet">
+            <div class="pure-u-1 padding-3 center">
                 <h1 class="light-gray-text">Using Linux Containers</h1>
                 <p>
                     Linux containers offer many advantages over more traditional development and hosting stacks.
@@ -120,15 +129,15 @@
                 last-known good configuration with zero downtime.
             </div>
         </div>
-        <div class="pure-g-r main pure-hidden-desktop">
-            <div class="pure-u-1 padding-3">
+        <div class="pure-g-r main pure-hidden-desktop center">
+            <div class="pure-u-1 padding-3 center">
                 <h1 class="light-gray-text">Using Crates</h1>
                 <p>
                     Linux Crates offer many advantages over more traditional development and hosting stacks.
                     Our infrastructure was designed from the beginning to take advantage of these added benefits.
                 </p>
             </div>
-            <div class="pure-u-1">
+            <div class="pure-u-1 center">
                 <div class="arrow-logo center">
                 </div>
             </div>
@@ -138,7 +147,7 @@
                     new crates at any stage of development.
                 </p>
             </div>
-            <div class="pure-u-1">
+            <div class="pure-u-1 center">
                 <div class="graph-logo center">
                 </div>
             </div>
@@ -148,7 +157,7 @@
                     to keep up with your web traffic.
                 </p>
             </div>
-            <div class="pure-u-1">
+            <div class="pure-u-1 center">
                 <div class="clock-logo center">
                 </div>
             </div>
@@ -157,8 +166,8 @@
                 last-known good configuration with zero downtime.
             </div>
         </div>
-        <div class="pure-g-r main padding-3" >
-            <div class="pure-u-1 center padding-2">
+        <div class="pure-g-r main padding-3 center" >
+            <div class="pure-u-1 center padding-2 center">
                 <h2>And more...</h2>
                 <p>
                     Crates add benefits throughout your development and production stack, many of which can be
@@ -168,7 +177,7 @@
         </div>
     </div>
 </div>
-<div class="pure-g-r center margin-3">
+<div class="pure-g-r center margin-3 pure-hidden-phone">
     <div class="pure-u-1 center main">
         <h2>Control Panel</h2>
         <p>Luma Hosting uses linux containers coupled with our own infrastructure to supply you with advanced
@@ -180,7 +189,7 @@
         <p>Inspect a Crate to view advanced details and actions. Set backups, duplicate Crates, view logs,
             and more.</p>
         <img src="{{ url_for('static', filename='images/cp-inspect.png') }}" class="padding-2">
-        <p>Advanced alerts set with custom or pre-defined criteria to alert you by Email, SMS, and phone.</p>
+        <p>Advanced alerts set with custom or pre-defined criteria to alert you by Email, SMS, and Phone.</p>
         <img src="{{ url_for('static', filename='images/cp-alerts.png') }}" class="padding-2">
         <p>View and monitor your running processes by accessing our API and Web Console. See how your application
             is performing in realtime.</p>
