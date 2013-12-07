@@ -128,12 +128,21 @@ h2 a:hover:after {
     color: #000;
 }
 
+.header a {
+    color: #FFF;
+    border-bottom: 1px solid #fff;
+}
+.header a:hover {
+    color: #f1f1f1;
+    border-bottom: none;
+}
 a {
     color: #FF8400;
 }
 
 a:hover {
     color: #f42a00;
+    border-bottom: none;
 }
 
 hr {
@@ -323,7 +332,16 @@ input.image[type="checkbox"]:checked + label:before {
 padding-top: 1em;
 padding-bottom: 1em;
 }
-
+.footer a {
+    font-size:.7em;
+    display:block;
+    color:#a4a4a4;
+    padding:.55em;
+}
+.footer a:hover {
+    background-color: #f8f8f8;;
+    color:#a4a4a4;
+}
 .top-nav {
     display:inline-block;
     color:#a4a4a4;
@@ -511,7 +529,7 @@ span.tags a:hover {
     background: -ms-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
     background: linear-gradient(135deg,  #1e5799 0%,#7db9e8 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    padding-bottom: 1em;
 }
 
 .light-blue {
@@ -584,11 +602,6 @@ span.tags a:hover {
     float: right;
 }
 
-.footer {
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 1.5em;
-}
 
 
 
