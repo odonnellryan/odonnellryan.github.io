@@ -12,6 +12,7 @@ table {
     margin-top:1.5em !important;
 }
 body {
+    background-color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 22px;
     color:#797979;
@@ -28,6 +29,7 @@ small {
     font-size:.75em;
 }
 strong {
+    font-size: .85em;
     font-weight:600;
 }
 
@@ -50,8 +52,9 @@ code {
 /*paragraph*/
 p {
     font-family: 'Lato', sans-serif;
-    padding: .5em;
-    -webkit-text-stroke: 0px;
+    padding: .25em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 em {
@@ -94,7 +97,6 @@ h6 {
 
 h1 {
     font-size: 2em;
-    color: #000;
 }
 
 h2 {
@@ -126,12 +128,21 @@ h2 a:hover:after {
     color: #000;
 }
 
+.header a {
+    color: #FFF;
+    border-bottom: 1px solid #fff;
+}
+.header a:hover {
+    color: #f1f1f1;
+    border-bottom: none;
+}
 a {
     color: #FF8400;
 }
 
 a:hover {
     color: #f42a00;
+    border-bottom: none;
 }
 
 hr {
@@ -318,14 +329,23 @@ input.image[type="checkbox"]:checked + label:before {
 }
 
 .login-bar {
-    padding-top:1em;
-    padding-bottom:1em;
+padding-top: 1em;
+padding-bottom: 1em;
 }
-
+.footer a {
+    font-size:.7em;
+    display:block;
+    color:#a4a4a4;
+    padding:.55em;
+}
+.footer a:hover {
+    background-color: #f8f8f8;;
+    color:#a4a4a4;
+}
 .top-nav {
     display:inline-block;
     color:#a4a4a4;
-    padding:.45em;
+    padding:.55em;
 }
 a.top-nav:hover {
     background-color: #f8f8f8;;
@@ -389,20 +409,21 @@ span.tags a:hover {
 /* button stylings */
 
 .button {
-    display: inline-block;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 6px;
+    font-size: 100%;
+    font-weight: bold;
+    padding: .6em 1.5em;
     color: #fff;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    border: 1px solid #999;
+    border: 0 rgba(0,0,0,0);
+    background-color: #E6E6E6;
     text-decoration: none;
-    padding: .5em;
-    cursor: hand;
-    border: none;
-    margin: 1em auto;
+    border-radius: 5px;
+    -webkit-transition: .1s linear -webkit-box-shadow;
+    -moz-transition: .1s linear -moz-box-shadow;
+    -ms-transition: .1s linear box-shadow;
+    -o-transition: .1s linear box-shadow;
+    transition: .1s linear box-shadow;
 }
-
 .button-small {
     display: inline-block;
     -moz-border-radius: 5px;
@@ -508,7 +529,7 @@ span.tags a:hover {
     background: -ms-linear-gradient(-45deg,  #1e5799 0%,#7db9e8 100%); /* IE10+ */
     background: linear-gradient(135deg,  #1e5799 0%,#7db9e8 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
+    padding-bottom: 1em;
 }
 
 .light-blue {
@@ -535,6 +556,11 @@ span.tags a:hover {
 
 /* begin colored fonts */
 
+.zero {
+    padding:0 !important;
+    margin:0 !important;
+}
+
 .white-text {
     color:#fff;
 }
@@ -560,9 +586,6 @@ span.tags a:hover {
 }
 .main {
     max-width: 1000px;
-    margin: 0 auto;
-    padding-left: 2em;
-    padding-right: 2em;
 }
 
 .post-content {
@@ -579,11 +602,6 @@ span.tags a:hover {
     float: right;
 }
 
-.footer {
-    text-align: center;
-    padding-top: 3em;
-    padding-bottom: 1.5em;
-}
 
 
 
