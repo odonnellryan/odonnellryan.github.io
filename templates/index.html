@@ -1,16 +1,5 @@
 {% extends "main.html" %}
 {% block body %}
-<div class="pure-g-r center main login-bar">
-    <div class="pure-u-1-3 center pure-hidden-phone pure-hidden-tablet">
-        <a class="top-nav" href="#">Coming Soon</a>
-    </div>
-    <div class="pure-u-1-3 logo center">
-        <img src="/static/images/logo.png">
-    </div>
-    <div class="pure-u-1-3 center pure-hidden-phone pure-hidden-tablet">
-        <a class="top-nav" href="#">About Luma</a>
-    </div>
-</div>
 <div class="pure-g-r center blue blue-gradient header">
     <div class="pure-u-1 main center padding-2">
         <h1 class="light-gray-text">Luma Hosting</h1>
@@ -23,16 +12,17 @@
         </p>
         <p>
             <small>Free accounts will be rolling out soon.
-            Sign up with your email below to be alerted as soon as your account is activated.</small>
+            Sign up with your email below to be alerted.</small>
         </p>
     </div>
     <div class="pure-u-1 padding-2">
         <form action="{{ url_for('email') }}" method="post" class="pure-form">
             <fieldset>
-                <input type="email" placeholder="Email" class="center">
-                <button type="submit" class="button b-orange">Sign Up</button>
+                <input name='email' id='email' type="text" placeholder="Email" class="center">
+                <button type="submit" class="button b-orange">Alert Me</button>
             </fieldset>
         </form>
+        <a href="/email_policy/"><small>Read our email policy.</small></a>
     </div>
 </div>
 <div class="pure-g-r center padding-4 main">
@@ -73,7 +63,7 @@
             <strong>Plan out your crate</strong> to meet your application needs.
         </p>
     </div>
-    <div class="pure-u-1-3 ">
+    <div class="pure-u-1-3 center">
         <div class="circle-200 blue center">
             <h3 class="light-gray-text">Building</h3>
         </div>
@@ -81,7 +71,7 @@
             <strong>Use our tools to build</strong> your crate and save it to be deployed anywhere.
         </p>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-3 center">
         <div class="circle-200 dark-blue center">
             <h3 class="light-gray-text">Deploying</h3>
         </div>
@@ -177,7 +167,7 @@
         </div>
     </div>
 </div>
-<div class="pure-g-r center margin-3 pure-hidden-phone">
+<div class="pure-g-r center padding-3 pure-hidden-phone">
     <div class="pure-u-1 center main">
         <h2>Control Panel</h2>
         <p>Luma Hosting uses linux containers coupled with our own infrastructure to supply you with advanced
@@ -197,6 +187,24 @@
         <p></p>
         <p>We've worked hard to bring you the very best in control over your infrastructure. Allow us to make your stack
             easy and put you back in charge over your technology.</p>
+    </div>
+</div>
+<div class="pure-g-r header blue center padding-3">
+    <div class="pure-u-1 center main">
+        <h2>Convinced?</h2>
+        <p>
+        Use the form below to be alerted when Luma Hosting goes live. When you sign up, you'll get put into
+         a queue for one free hosted Crate.
+        </p>
+    </div>
+    <div class="pure-u-1 center padding-2 main">
+        <form action="{{ url_for('email') }}" method="post" class="pure-form">
+            <fieldset>
+                <input name='email' id='email' type="text" placeholder="Email" class="center">
+                <button type="submit" class="button b-orange">Alert Me</button>
+            </fieldset>
+        </form>
+        <a href="/email_policy/"><small>Read our email policy.</small></a>
     </div>
 </div>
 {% endblock %}
