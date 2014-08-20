@@ -5,7 +5,7 @@ from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 
 FREEZER_DESTINATION = "../"
-FREEZER_DESTINATION_IGNORE = ['resume.pdf', 'README.md', '.git', '.idea', 'blog_app']
+FREEZER_DESTINATION_IGNORE = ['resume.pdf', 'README.md', '.git', '.idea', 'blog_app', 'CNAME']
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
