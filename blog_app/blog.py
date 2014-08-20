@@ -17,11 +17,11 @@ freezer = Freezer(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html', pages=pages)
+    return render_template('index.html', pages=pages, title="Ryan O'Donnell")
 
 @app.route('/blog/')
 def blog_index():
-    return render_template('blog_index.html', pages=pages)
+    return render_template('blog_index.html', pages=pages,  title="Blog")
 
 @app.route('/blog/<path:path>/')
 def page(path):
