@@ -1,4 +1,0 @@
-title: Latest post!
-date: 2015-01-08
-
-Testing new!!
