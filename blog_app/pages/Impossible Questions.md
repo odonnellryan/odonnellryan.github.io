@@ -1,16 +1,15 @@
 # Impossible Questions
 
-
-I was recently asked to interview for a very well known software company. I was super excited for the opportunity 
-(crazy awesome perks!) and ready for some fun programming challenges. I'm not an expert programmer by any stretch, 
-but boy do I enjoy solving problems!
+I was recently asked to interview for a very well known software company. I'm definitely still a junior dev (and I was clear about this)
+ but I was super excited for the opportunity (crazy awesome perks!) and ready for some fun programming challenges. 
+ I'm not an expert programmer by any stretch, but boy do I enjoy solving problems.
  
- Before I talk about the interview and the questions, I'd like to briefly touch base on something called The Shannon Limit. 
-Don't take this as a formal statement of everything that Shannon covered, but for my purposes we should keep this in mind:
- To state things simply, The Shannon Limit is the limit of the amount of information that can be stored in a fixed finite 
-  amount of bits. Sounds pretty intuitive and reasonable, right? 
   
-So, that gives us our first assertion: One bit of information can only store two states: 1 and 0. 
+So, that gives us our first lemma: One bit can only store two states: 1 and 0. 
+
+    Given two possible states (0 and 1) we can only represent two states:
+        State one: 0
+        State two: 1 
 
 That's great! Well, what if we add a second bit? It turns out that this doubles our capacity for storage. For 
 those of you who know binary, this is painfully obvious: two bits gives us four states, three gives us eight, and so on:
@@ -20,19 +19,23 @@ those of you who know binary, this is painfully obvious: two bits gives us four 
     
 The binary number 111 gives us more information than three unique bits could. 
 The reason for this is that the _position_ of the bits is another way to store information. As we change position in
- binary we aren't increasing the amount of storage by ten as we would in decimal, but instead by an order of 2.
+ binary we aren't increasing the amount of storage by an order of ten as we would in decimal, but instead by an order of two.
 
-Thus, our second assertion: For each added bit we double the total amount of information that we can store. 
+Thus, our second lemma: For each added bit we double the total amount of information that we can store. 
+
+    For each additional position allowed (n) in a base b numbering system, you are increasing the storage by a factor
+    of b. -> Storage = b^n
+    
   
-Now it looks like we're getting somewhere! But, do we always need all those bits? Can't 10000000000 somehow be cleverly 
+Now it looks like we're getting somewhere! But, do we always need all those bits? Can't binary 10000000000 somehow be cleverly 
  represented as 1 with 1010 zeros? Can't every number?
 
 
-As it turns out, if we were to randomly generate a fixed amount of bits
+As it turns out, if we were to randomly generate a fixed amount of bits,
  and then we were to try to come up with a way to represent that _same_ information but using fewer bits (compress them)
  , we wouldn't be 
- reducing our number very much at all. It's always possible that we could find numbers that give us interesting patters:
- nice squares (or close to them), numbers with a lot of trailing zeros (scientific notation) and so on. However,
+ reducing the size of our number very much at all. It's always possible that we could find numbers that give us interesting patters:
+ perfect squares (or close to them), numbers with a large sequence of zeros (scientific notation) and so on. However,
  on average (if we have no control of the numbers we get), we will need the same amount of bits to represent our 
  information no matter the compression chosen: Shannon covered this in his famous paper: [A Mathematical Theory of Communication](http://cm.bell-labs.com/cm/ms/what/shannonday/shannon1948.pdf). 
   
@@ -58,5 +61,5 @@ smart-recording! Just plug the number and the VCR starts recording for you!
  _Awesome!_ But how does it work?
  
  Well, actually, a lot of people spent some really good time backwards-engineering this very problem. There is a thing
- called VCR-Plus that existed for this very function. It was a real product and it _worked!_
+ called VCR-Plus that existed for this very function. It was a real product and it _worked!_ 
  
