@@ -7,27 +7,45 @@ I was recently asked to interview for a very well known software company. I'm de
   
 So, that gives us our first lemma: One bit can only store two states: 1 and 0. 
 
-    Given two possible states (0 and 1) we can only represent two states:
-        State one: 0
-        State two: 1 
+    Lemma A: Given two possible states (0 and 1) we can only represent two states:
+
+    Proof:
+        We state all possible cases and count them.
+        Case one: 0
+        Case two: 1 ∎
 
 That's great! Well, what if we add a second bit? It turns out that this doubles our capacity for storage. For 
-those of you who know binary, this is painfully obvious: two bits gives us four states, three gives us eight, and so on:
-
+those of you who know binary this is painfully obvious: two bits gives us four states, three gives us eight, and so on:
+    
+    
+    Remember, 0 is a state too!
+    
     4 + 2 + 1 = 7
     1   1   1 = 7 (in binary!)
+    
     
 The binary number 111 gives us more information than three unique bits could. 
 The reason for this is that the _position_ of the bits is another way to store information. As we change position in
  binary we aren't increasing the amount of storage by an order of ten as we would in decimal, but instead by an order of two.
 
-Thus, our second lemma: For each added bit we double the total amount of information that we can store. 
+Thus, our second lemma: For each added binary bit we double the total amount of information that we can store. 
 
-    For each additional position allowed (n) in a base b numbering system, you are increasing the storage by a factor
-    of b. -> Storage = b^n
-    
+    Lemma B: For each additional position allowed (n) in a base b numbering system, you are increasing the storage by a factor
+        of b. 
+            -> Storage = S = b^n
+
+    Proof:
+        We know by the [Rule of Product](http://en.wikipedia.org/wiki/Rule_of_product) that the possible combinations 
+        of any number of sets is the product of the size of those sets. For example, to choose one of {1,0} 
+        and one of {1,0} is to have one of {11,01,10,00}.
+        The size of our sets is the number of possible choices of numbers for our base: b
+        The number of sets is the number of positions we allow ourselves: n
+        Thus, we multiply b by itself n number of times giving us: b^n total possible combinations.
+        Knowing that we multiply b by itself, we know we are increasing the total capacity for storage by a factor of b 
+        for each additional number position allowed ∎
+        
   
-Now it looks like we're getting somewhere! But, do we always need all those bits? Can't binary 10000000000 somehow be cleverly 
+Now it looks like we're getting somewhere! But, do we _always_ need all those bits? Can't binary 10000000000 somehow be cleverly 
  represented as 1 with 1010 zeros? Can't every number?
 
 
